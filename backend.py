@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "10d5f529de1540fb5a6906dee73548c9"
+API_KEY = "..."
 
 def get_data(place, forecast_days=None):
     url = f"http://api.openweathermap.org/data/2.5/forecast?q={place}&appid={API_KEY}"
